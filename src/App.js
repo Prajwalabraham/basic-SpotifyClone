@@ -9,9 +9,6 @@ import { useDataLayerValue } from './DataLayer';
 
 const spotify = new SpotifyWebApi({
 // credentials are optional
-  clientId: '4cf8640d40a14c478c1acccb8fe49dc2',
-  clientSecret: 'b69c720c4ee9486d9ccf8d5cd5b407c7',
-  redirectUri: 'http://localhost:3000/'
 });
 
 function App() {
